@@ -1,0 +1,42 @@
+generated: '2026-09-27'
+method: probed
+source: https://bemycar.pro/privacidad/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Tienes derecho a recibir una copia de los datos personales que tenemos almacenados sobre ti (derecho de acceso a los datos)"
+        note: user can request access to their personal data
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Puedes solicitar la eliminación de los datos personales o a la corrección de campos inexactos."
+        note: right to deletion and correction
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Tienes derecho a oponerte al tratamiento de datos personales (derecho a oponerte al tratamiento)"
+        note: right to object
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Tienes derecho a limitar el tratamiento de tus datos en determinadas circunstancias (derecho a limitar el tratamiento)"
+        note: right to restriction
+  subprocessors:
+    evidence:
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Utilizamos proveedores de servicios analíticos y motores de búsqueda para ayudarnos a mejorar y optimizar nuestra Página Web"
+        note: uses analytics service providers
+      - source: https://bemycar.pro/privacidad/
+        http_status: 200
+        fetched: '2026-09-27'
+        quote: "Podemos compartir información agregada con terceros, incluyendo datos personales y datos de sesión, asegurándonos de que estas terceras partes se adhieren a normas estrictas de confidencialidad y protección de datos"
+        note: shares aggregated data with third parties under confidentiality
+  data_retention:
+    evidence: []
+  incident_notification:
+    evidence: []
